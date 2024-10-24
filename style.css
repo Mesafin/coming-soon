@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f0f0f, #090909);
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    color: #ccc;
+    margin: 10px 0;
+}
+
+.countdown {
+    margin-top: 20px;
+}
+
+#countdown-timer {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff9800;
+}
